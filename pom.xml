@@ -44,6 +44,9 @@
                                 <echo message="moving javascripts resources" />
                                 <copy todir="${destDir}/javascripts" overwrite="true" verbose="true">
                                     <fileset dir="${project.build.directory}/jquery.treeview" includes="*.js" />
+                                    <resources>
+                                        <file file="${project.build.directory}/jquery.treeview/lib/jquery.cookie.js" basedir="${project.build.directory}/jquery.treeview/lib/" />
+                                    </resources>
                                 </copy>
                                 <echo message="moving style resources" />
                                 <copy todir="${destDir}/stylesheets" overwrite="true" verbose="true">
