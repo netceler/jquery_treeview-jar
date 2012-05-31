@@ -4,11 +4,11 @@
     <groupId>com.jquery</groupId>
     <artifactId>jquery.treeview</artifactId>
     <name>jquery Treeview plugin</name>
-    <version>1.5pre</version>
+    <version>1.5pre-1</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jquery.treeview.sourceUrl>http://jquery.bassistance.de/treeview</jquery.treeview.sourceUrl>
+        <jquery.treeview.sourceUrl>http://bguerin.github.com/jquery-treeview</jquery.treeview.sourceUrl>
         <destDir>${project.build.directory}/classes/public</destDir>
     </properties>
     <build>
