@@ -8,7 +8,7 @@
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jquery.treeview.sourceUrl>http://bguerin.github.com/jquery-treeview</jquery.treeview.sourceUrl>
+        <jquery.treeview.sourceUrl>http://netceler.github.com/jquery-treeview</jquery.treeview.sourceUrl>
         <destDir>${project.build.directory}/classes/public</destDir>
     </properties>
     <build>
